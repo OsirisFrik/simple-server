@@ -1,0 +1,28 @@
+{
+  "name": "simple-server",
+  "version": "1.0.0",
+  "description": "simple node server to test",
+  "main": "server.js",
+  "scripts": {
+    "test": "node .",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OsirisFrik/simple-server.git"
+  },
+  "keywords": [
+    "nodejs",
+    "js",
+    "server"
+  ],
+  "author": "OsirisFrik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OsirisFrik/simple-server/issues"
+  },
+  "homepage": "https://github.com/OsirisFrik/simple-server#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
