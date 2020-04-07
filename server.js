@@ -5,9 +5,12 @@ const port = process.argv[2]
 let server
 
 app.get('/', (req, res) => {
+  console.log(`ip: ${req.ip}, port: ${port}, server: ${JSON.stringify(server.address())}`)
+
   res.send({
     ip: req.ip,
-    port: req.hostname,
+    host: req.hostname,
+    port: port,
     server: server.address()
   })
 })
